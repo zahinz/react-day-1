@@ -1,0 +1,32 @@
+.work-container {
+    display: flex;
+    align-items: center;
+    background-color: var(--sec-color);
+    height: 70%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.work-container-left {
+    width: 50%;
+    height: 100%;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #efa9f5 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work-container-left i {
+    font-size: 14rem;
+    color: white;
+}
+
+.work-container-right .sign-up-btn {
+    margin-top: 20px;
+}
+
+.work-container-right {
+    width: 50%;
+    padding: 0 8%;
+}
